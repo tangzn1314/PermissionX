@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
                 this,
                 Manifest.permission.CALL_PHONE,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                Manifest.permission.READ_CONTACTS
             ) { allGranted, deniedList ->
                 if (allGranted) {
                     call()
